@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    color: rgb(23, 23, 238);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 100px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+p{
+    border-radius: 10px;
+    border: solid 3px aqua;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: 20px;
+}
+
+body{
+    background-image: url(./img/beach-summer-holiday-starter-pack-background-design-free-vector.jpg);
+}
+
+.gustaria{
+    padding: 0 10px;
+    color: rgb(44, 255, 139);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pi{
+    color: rgb(153, 44, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.p2{
+    color: rgb(255, 49, 49);
+    font-family:initial;
+}

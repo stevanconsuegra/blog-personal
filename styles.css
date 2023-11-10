@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.stevan {
+    color: rgb(255, 0, 0);
+}
+
+.signo{
+    color: rgb(0, 255, 255);
+}
+
+.extevano{
+    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+.basico{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 0, 43);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 30px;
+}
+.magina{
+    color: rgb(255, 0, 0);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nombre{
+         font-family: cursive;
+         color: rgb(0, 183, 255);
+}
+
+.img1{
+    padding: 10px 40px;
+    border-radius: 50px;
+    width: 250px;
+    height: 250px;
+}
+
+.img2{
+    border-radius: 10px;
+    width: 150px;
+    height: 120px;
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    background-image: url(./img/marmol-negro-vetas-oro-amarillo-fondo-lujo-patron-textura-papel-tapiz-fondo_860215-667.jpg);
+}
+
+main{
+    display: flex;
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 10px;
+   justify-content: space-around;
+   margin: 0px 100px;
+   background-image: url(./img/df523772213c463d41a597f5f8b6db49.jpg);
+}
+p{
+    color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+body{
+    background-image: url(./img/a58e016b96e3fc1090dc824a55e736e0.jpg);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+}
+
+.img1:hover{
+       transform: scale(1.1);
+       transition: ease 0.5s;
+}
+
+.extevano:hover {
+    transition: ease 0.5s;
+    height: 90px; 
+    width:90px; 
+}
